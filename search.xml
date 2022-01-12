@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>用hexo搭建博客(一)</title>
+      <link href="/2022/01/05/Start-Hexo-Blog/"/>
+      <url>/2022/01/05/Start-Hexo-Blog/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a>一、准备工作</h1><ol><li><p>新建一个文件夹并命名为Blog，最好在磁盘的根目录下，不然后面可能会涉及到改代码。（绝对路径和相对路径问题）</p></li><li><p>安装git环境</p></li><li><p>注册GitHub账号</p></li><li><p>安装node.JS</p></li><li><p>找到你新建的Blog文件夹，并在路径下右键git bash here打开命令提示框</p></li><li><p>安装hexo框架</p><p><code>$ npm install -g hexo-cli</code></p></li><li><p>通过以下命令查看是否安装node.js和npm，gitbash不行的话可以在cmd命令行内，实在不行请检查系统环境变量是否正确配置。</p></li></ol>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ node --version    <span class="comment">#检查是否安装了node.js</span></span><br><span class="line">$ npm --version     <span class="comment">#检查是否安装了npm8.</span></span><br><span class="line"><span class="comment">#正确安装的话会输出对应的版本号</span></span><br></pre></td></tr></table></figure><h1 id="二、正式开始"><a href="#二、正式开始" class="headerlink" title="二、正式开始"></a>二、正式开始</h1><p>首先了解一下什么是Hexo三连，因为这个命令会经常用到，请确保你正确的输入</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean <span class="comment">#清除缓存文件</span></span><br><span class="line">hexo generate <span class="comment">#生成静态博客页面代码</span></span><br><span class="line">hexo sever <span class="comment">#启动本地服务</span></span><br><span class="line">或者hexo deploy <span class="comment">#将代码上传</span></span><br><span class="line"><span class="comment">#以上代码可以用开头首字母代替，如hexo g表示生成</span></span><br></pre></td></tr></table></figure><ol><li>进入Blog文件夹下打开git_bash。</li><li>输入初始化命令,生成必要文件。<br><code>hexo init</code></li><li>然后hexo三连，会发现输出了一个带端口号的网址，复制到浏览器，打开应该就能看到你刚刚弄好的博客啦。退出按CTRL+C没错就是你熟悉的那个操作。</li></ol><p>至此，一个属于你的本地博客框架就搭好啦，后面会继续更新个性化博客功能，以及将博客上传到Github实现在线访问等操作。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -Hexo环境配置（一） </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello Hexo</title>
       <link href="/2022/01/03/hello-world/"/>
       <url>/2022/01/03/hello-world/</url>
